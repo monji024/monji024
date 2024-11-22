@@ -4,4 +4,13 @@
     **My homeland is Iran🥷🏻**</br>
      </samp>
 
+# My professions :
+<samp>
+Ruby ,
+python , 
+Html ,
+Css , 
+JavaScript ,
+Linux
+<br>
 </samp>
