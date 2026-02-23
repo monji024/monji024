@@ -42,3 +42,5 @@
   </a>
 </p>
 
+## Donating
+[![Daramet](https://img.shields.io/badge/Daramet-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://daramet.com/Monji) 
