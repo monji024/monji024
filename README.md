@@ -58,13 +58,6 @@
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monji024/monji024/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/monji024/monji024/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/monji024/monji024/output/github-contribution-grid-snake.svg">
-</picture>
----
-
 ## ☕ Donating
 
 <p align="center">
@@ -72,3 +65,14 @@
     <img src="https://img.shields.io/badge/Daramet-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
   </a>
 </p>
+
+---
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monji024/monji024/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/monji024/monji024/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/monji024/monji024/output/github-contribution-grid-snake.svg">
+</picture>
+
+---
