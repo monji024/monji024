@@ -1,6 +1,9 @@
-name: Generate Snake
+name: Generate Snake Animation
 on:
+  schedule:
+    - cron: "0 */12 * * *"
   workflow_dispatch:
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -9,20 +12,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Generate snake SVG
-        uses: Platane/snk/svg-only@v3
+
+      - name: Generate the snake files
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            github-contribution-grid-snake-dark.svg?palette=github-dark
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Commit and Push
+      - name: Push to repository
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add github-contribution-grid-snake-dark.svg
-          git commit -m "Update snake animation" || echo "No changes to commit"
-          git push
+          git add output/
+          git commit -m "Generate snake animation" || echo "No changes"
+          git push origin main
