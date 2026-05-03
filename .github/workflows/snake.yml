@@ -1,15 +1,15 @@
-name: Generate Contribution Snake
+name: Generate Snake Contribution
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    permissions:
+      contents: write
     steps:
       - name: Generate Snake
         uses: Platane/snk@v3
@@ -20,9 +20,9 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push Snake to Output Branch
-        uses: crazy-max/ghaction-github-pages@v2.5.0
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
