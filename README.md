@@ -1,4 +1,4 @@
-# Monji
+ # Monji
 <p align="center">
   <img width="240" src="i96256_iran.png" alt="Iran Flag">
 </p>
@@ -35,9 +35,7 @@
   </a>
 </div>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=monji024&theme=radical" />
-</p>
+
 
 ---
 
