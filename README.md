@@ -20,10 +20,6 @@
 ---
 
 ## 📊 GitHub Stats
-<div align="center">
-
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=monji024&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9" />
-</div>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=monji024&theme=tokyonight&hide_border=true&background=0D1117&stroke=79C0FF&ring=79C0FF&fire=FFA500&currStreakLabel=FFFFFF" />
