@@ -17,22 +17,6 @@
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
 </p>
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=monji024&theme=tokyonight&hide_border=true&background=0D1117&stroke=79C0FF&ring=79C0FF&fire=FFA500&currStreakLabel=FFFFFF" />
-  <img src="https://github-profile-trophy.vercel.app/?username=monji024&theme=radical&no-frame=true&column=5&margin-w=10&margin-h=15&row=1" />
-</div>
-
-<div align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=monji024&bg_color=0D1117&color=79C0FF&line=79C0FF&point=FFFFFF&area=true&hide_border=true" width="90%"/>
-  </a>
-</div>
-
-
 
 ---
 
