@@ -1,11 +1,11 @@
  # Monji
 
-<p align="center">
+<!-- <p align="center">
   <img width="240" src="i96256_iran.png" alt="Iran Flag">
 </p>
 <p align="center">
   <samp><strong>A programmer 🥷🏻</strong></samp>
-</p>
+</p> -->
 
 ---
 
